@@ -43,7 +43,7 @@ HTTPSRedirect client(httpsPort);
 // interval to read data
 unsigned long lastIntervalTime;
 int interval = 1000;    //update interval for checking the temperature
-float minTempDif = 0.15; //minimum temperature difference for sending
+float minTempDif = 0.2; //minimum temperature difference for sending
 
 //DS18B20 setup
 #define ONE_WIRE_BUS D2 //   //DS18B20 is connector to D2
